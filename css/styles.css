@@ -570,3 +570,38 @@ Order Service <!--section 1-->*/
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
+
+.container-subscribe {
+  margin-left: auto;
+}
+
+.paragraph-subscribe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.form-subscribe {
+  display: flex;
+}
+
+.label-subscribe {
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
