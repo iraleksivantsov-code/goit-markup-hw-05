@@ -607,7 +607,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 480px;
+  width: 408px;
   min-height: 584px;
   border-radius: 4px;
   transform: translate(-50%, -50%);
@@ -697,6 +697,10 @@ a {
   border-color: #4d5ae5;
 }
 
+.input-class:focus .person {
+  fill: #4d5ae5;
+}
+
 .person {
   position: absolute;
   left: 16px;
@@ -730,18 +734,18 @@ a {
   border-color: #4d5ae5;
 }
 
-.checkbox-container {
+.form-field-wrap {
   margin-bottom: 24px;
 }
 
-.label-checkbox {
+.policy-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.span-checkbox {
+.custom-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
