@@ -759,7 +759,7 @@ a {
   fill: transparent;
 }
 
-.visually-hidden:checked + .check {
+.policy-checkbox:checked + .policy-label > .custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
