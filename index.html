@@ -599,6 +599,36 @@
               </div>
             </label>
           </div>
+
+          <div class="comment">
+            <label class="label-person" for="user-comment"></label>Comment
+            <textarea
+              class="textarea-class"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="checkbox-container">
+            <label class="label-checkbox" for="user-privacy"
+              >I accept the terms and conditions of the
+            </label>
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <span class="span-checkbox">
+              <svg class="check" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            <a href="#" class="link-privacy-policy">Privacy Policy</a>
+            <button class="button-checkbox">Send</button>
+          </div>
         </form>
       </div>
     </div>
